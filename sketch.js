@@ -52,7 +52,7 @@ function preload() {
 }
 
 function setup() {
-  var isMoble = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
   if (isMobile) {
     canW = displayWidth
     canH = displayHeight
